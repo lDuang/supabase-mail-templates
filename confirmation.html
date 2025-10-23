@@ -13,8 +13,10 @@
         </div>
         <p style="margin:0 0 16px 0;font-size:12px;line-height:1.6;color:#6b7280;text-align:center;">This code expires shortly. Don’t share it with anyone.</p>
 
-        <p style="margin:16px 0 8px 0;font-size:13px;line-height:1.6;color:#6b7280;">Prefer a link? Open this URL in your browser:</p>
-        <p style="word-break:break-all;margin:0 0 16px 0;font-size:12px;line-height:1.6;color:#374151;">{{ .ConfirmationURL }}</p>
+        <p style="margin:16px 0 16px 0;font-size:13px;line-height:1.6;color:#6b7280;text-align:center;">
+          Prefer a link?
+          <a href="{{ .ConfirmationURL }}" style="color:#3b82f6;text-decoration:underline;">Confirm via link</a>
+        </p>
         <hr style="border:none;border-top:1px solid #e5e7eb;margin:24px 0;" />
         <p style="margin:0;font-size:12px;line-height:1.6;color:#6b7280;">If you didn’t create an account, you can safely ignore this email.</p>
       </div>
